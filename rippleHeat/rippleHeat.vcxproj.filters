@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="ripple_heat.cu" />
+    <CudaCompile Include="Ripple.cu" />
+    <CudaCompile Include="Heat.cu" />
+    <CudaCompile Include="ray.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{78dfe92b-3023-4ebd-9f02-9eebb312adae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\book.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cpu_anim.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cpu_bitmap.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gl_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
