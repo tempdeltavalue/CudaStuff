@@ -10,6 +10,9 @@
     <Filter Include="common">
       <UniqueIdentifier>{78dfe92b-3023-4ebd-9f02-9eebb312adae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cube">
+      <UniqueIdentifier>{1c785105-ec88-44cd-877a-fb8cca301543}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\book.h">
@@ -24,5 +27,24 @@
     <ClInclude Include="common\gl_helper.h">
       <Filter>common</Filter>
     </ClInclude>
+    <ClInclude Include="common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>cube</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cube.v.glsl">
+      <Filter>cube</Filter>
+    </None>
+    <None Include="cube.f.glsl">
+      <Filter>cube</Filter>
+    </None>
   </ItemGroup>
 </Project>
